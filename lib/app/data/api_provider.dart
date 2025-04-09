@@ -6,10 +6,10 @@ class ApiProvider{
 
   final Dio _dio = Dio(BaseOptions(
 
-    headers: {
-    'Authorization': 'Bearer YOUR_TOKEN_HERE',
-    'Accept': 'application/json',
-  },
+  //   headers: {
+  //   'Authorization': 'Bearer YOUR_TOKEN_HERE',
+  //   'Accept': 'application/json',
+  // },
 
     connectTimeout: Duration(seconds: 5),
     receiveTimeout: Duration(seconds: 3),
